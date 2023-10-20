@@ -1,0 +1,92 @@
+html {
+	background: none;
+}
+
+.login {
+	background: url('images/bg.jpg') #10a5d3;
+	background-repeat: x y;
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+.login #login h1 a {
+	background-size: auto 100% !important;
+}
+
+
+.login #loginform {
+	width: 330px;
+	background: rgba(88,211,248,0.7);
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px 2px rgba(0,0,0,0.1);
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	box-shadow: 0px 0px 0px 2px #f2f5f7;
+	width: 290px;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	color: #aeaeae;
+	border: 1px solid #bec2c4;
+	margin-bottom: 15px;
+	max-width: 100%;
+	display: block;
+	outline: none;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+
+.login #loginform input[type=text]:focus, .login #loginform input[type=password]:focus {
+	outline: none;
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(88,211,247,1);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(88,211,247,1);
+	box-shadow: 0px 0px 4px 1px rgba(88,211,247,1);
+
+}
+
+.login label {
+	color: #0B3B39;
+}
+
+.login .button {
+	background-color: #4b4b4b;
+	width: 82px;
+	height: 32px;
+	border: 0px;
+	float: right;
+	margin-right: 24px;
+	line-height: 30px !important; 
+	color: #58D3F7;
+}
+
+.login .button:hover {
+	background-color: #58D3F7;
+	outline: none;
+	color:	#4b4b4b;
+	border: none; 
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #58D3F7;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #fff;
+
+}
+
+.login .forgetmenot {
+	padding-top: 5px;
+}
+
+.login .message {
+	color:  #58D3F7;
+	text-align: center;
+	background: rgba(0,0,0,0.15);
+	border-left: 10px solid #58D3F7;
+	border-right: 10px solid #58D3F7;
+	
+}

@@ -1,0 +1,73 @@
+html {
+	background: none;
+}
+
+.login {
+	background-color: #088A85;
+}
+
+.login #loginform {
+	background-color: #DFC301;
+	-webkit-box-shadow: 13px 15px 51px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 13px 15px 51px -5px rgba(0,0,0,0.75);
+	box-shadow: 13px 15px 51px -5px rgba(0,0,0,0.75);	
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.login #login h1 a {
+	background-color: #DFC301;
+	border-radius: 20px;
+	border: 3px solid #fff;
+	background-size: auto 100% !important;
+	background-position: center;
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	outline: none;
+	background-color: #fff;
+	text-align: center;
+}
+
+.login #loginform input[type=text]:focus, .login #loginform input[type=password]:focus {
+	outline: none;
+	border: 1px solid #088A85;
+}
+
+.login label {
+	color: #0B3B39;
+}
+
+.login .button {
+	background-color: #088A85;
+	color: #0B3B39;
+	font-size: medium;
+}
+
+.login .button:hover {
+	background-color: #fff;
+	outline: none;
+	color:	#0B3B39;
+	border: none; 
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #0B3B39;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #fff;
+}
+
+.login .message {
+	color:  #58D3F7;
+	text-align: center;
+	background: rgba(0,0,0,0.15);
+	border-left: 10px solid #01DFD7;
+	border-right: 10px solid #01DFD7;
+	width: 85%;
+}

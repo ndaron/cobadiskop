@@ -1,0 +1,702 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Beritaxx Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-12 03:31+0000\n"
+"PO-Revision-Date: 2022-09-16 06:47+0000\n"
+"Last-Translator: Fran Healy Travis\n"
+"Language-Team: Bahasa Indonesia\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: beritaxx"
+
+#: include/breadcrumb.php:150
+msgid " / Page : "
+msgstr "/ Halaman :"
+
+#: single.php:25
+#, php-format
+msgid "%s reading"
+msgstr "waktu baca %s"
+
+#: include/template-tags.php:112
+#, php-format
+msgid ""
+"&copy; %1$s. Beritaxx theme created by <a href=\"%2$s\">Team XX</a>. Proudly "
+"powered by <a href=\"%3$s\">WordPress</a>"
+msgstr ""
+"&copy; %1$s. Tema Beritaxx dibuat oleh <a href=\"%2$s\">Team XX</a>. Dengan "
+"bangga ditenagai oleh <a href=\"%3$s\">WordPress</a>"
+
+#: functions.php:319 functions.php:368
+msgid "&nbsp;ago"
+msgstr "&nbsp; lalu"
+
+#: widgets/full-category-block.php:10
+msgid "3 Block Category (Full)"
+msgstr "3 Block Category (Full)"
+
+#: include/user-profile.php:13
+msgid "62"
+msgstr "62"
+
+#: functions.php:482
+msgid "<div class=\"related_title\">Read Also</div>"
+msgstr "<div class=\"related_title\">Baca Juga</div>"
+
+#: include/template-cats.php:131
+msgid "<span class=\"active\"> Active</span>"
+msgstr "<span class=\"active\"> Aktif</span>"
+
+#: include/template-cats.php:133
+msgid "<span class=\"inactive\"> Expired</span>"
+msgstr "<span class=\"inactive\"> Expired</span>"
+
+#: include/template-cats.php:136
+msgid "<span class=\"inactive\"> Not Active</span>"
+msgstr "<span class=\"inactive\"> Tidak Aktif</span>"
+
+#: include/template-cats.php:158
+msgid ""
+"<span class=\"red\">IMPORTANT</span> : You can keep using Pro featured even "
+"if <span class=\"blue\">LICENSE CODE</span> has <span class=\"red\">"
+"EXPIRED</span>.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tWith  notes never <span class=\"red\">DEACTIVE</span> "
+"your <span class=\"blue\">LICENSE CODE</span> from this website !!!.<br/>"
+"<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tWhat if your website crashes and needs to be "
+"reinstalled?<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tIt is very <span class=\"red\">IMPORTANT</span> for "
+"you as website owner to regularly <span class=\"blue\">BACKUP</span> website "
+"data on hosting<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tSo if the website is damaged you can <span "
+"class=\"blue\">RESTORE</span> back your <span class=\"blue\">BACKUP</span> "
+"data."
+msgstr ""
+"<span class=\"red\">PENTING</span> : Anda tetap dapat menggunakan fitur "
+"bawaan tema walau <span class=\"blue\">KODE LISENSI</span> telah <span "
+"class=\"red\">EXPIRED</span>.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tDengan catatan <span class=\"blue\">KODE LISENSI</span>"
+" jangan pernah di-<span class=\"red\">NONAKTIFKAN</span> dari web ini !!!."
+"<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tBagaimana jika website Anda rusak dan harus instal "
+"ulang?<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tSangat <span class=\"red\">PENTING</span> bagi Anda "
+"pemilik website untuk rajin <span class=\"blue\">BACKUP</span> data website "
+"di hosting<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tSehingga jika website rusak Anda bisa me-<span "
+"class=\"blue\">RESTORE</span> kembali dari data <span class=\"blue\">"
+"BACKUP</span> yang rutin Anda lakukan."
+
+#: functions.php:353
+msgid "a"
+msgstr "beberapa"
+
+#: include/template-cats.php:239
+#, php-format
+msgid "Active until : %s"
+msgstr "Berlaku : %s"
+
+#: include/customizer.php:1551
+msgid "Add default image to replace if post dont have thumbnail"
+msgstr ""
+"Tambahkan gambar default unutk mengganti jika pos tidak memiliki thumbnail"
+
+#: include/customizer.php:1656
+msgid "Ads Slots"
+msgstr "Slot Iklan"
+
+#: include/customizer.php:1666
+msgid "After Header"
+msgstr "Setelah Header"
+
+#: include/theme-color.php:72
+msgid "Aksen1 Color"
+msgstr "Warna Aksen 1"
+
+#: include/theme-color.php:84
+msgid "Aksen2 Color"
+msgstr "Warna Aksen 2"
+
+#: single.php:72
+msgid "Another post by"
+msgstr "Pos lain oleh"
+
+#: include/customizer.php:1539
+msgid "Article Font Size"
+msgstr "Ukuran Font Artikel"
+
+#: include/breadcrumb.php:105
+msgid "Attachment"
+msgstr "Lampiran"
+
+#: archive.php:22
+#, php-format
+msgid "Author : %s"
+msgstr "Penulis : %s"
+
+#: include/customizer.php:1699
+msgid "Before Footer"
+msgstr "Sebelum Footer"
+
+#. Name of the theme
+msgid "Beritaxx"
+msgstr "Beritaxx"
+
+#: include/template-cats.php:79
+msgid "Beritaxx License"
+msgstr "Beritaxx Lisensi"
+
+#. %s: WordPress version.
+#: include/back-compat.php:16
+#, php-format
+msgid ""
+"Beritaxx need at least WordPress version 5.8. Your current version is %s."
+msgstr ""
+"Beritaxx betuh setidakn ya WordPress versi 5.8. Versi Anda saat ini ada;ah "
+"%s."
+
+#: include/template-cats.php:80
+msgid "Beritaxx Pro"
+msgstr "Beritaxx Pro"
+
+#: widgets/full-block-one.php:280 widgets/full-category-block.php:283
+#: widgets/latest-sidebar.php:109
+msgid "Beritaxx Widget"
+msgstr "Widget Beritaxx"
+
+#: include/customizer.php:31
+msgid "Block"
+msgstr "Block"
+
+#: widgets/full-category-block.php:221
+msgid "Block 1 Title"
+msgstr "Judul Blok 1"
+
+#: widgets/full-category-block.php:242
+msgid "Block 2 Title"
+msgstr "Judul Blok 2"
+
+#: widgets/full-category-block.php:263
+msgid "Block 3 Title"
+msgstr "Judul Blok 3"
+
+#: include/theme-color.php:213
+msgid "Block Background"
+msgstr "Warna Latar Blok"
+
+#: widgets/full-top-comment.php:108 widgets/latest-sidebar.php:102
+msgid "Block Title"
+msgstr "Judul Blok"
+
+#: widgets/full-category-block.php:19 widgets/full-category-block.php:212
+msgid "Category 1"
+msgstr "Kategori 1"
+
+#: widgets/full-category-block.php:21 widgets/full-category-block.php:214
+msgid "Category 2"
+msgstr "Kategori 2"
+
+#: widgets/full-category-block.php:23 widgets/full-category-block.php:216
+msgid "Category 3"
+msgstr "Kategori 3"
+
+#: widgets/full-category-block.php:225 widgets/full-category-block.php:246
+#: widgets/full-category-block.php:267 widgets/full-small-slide.php:131
+msgid "Category :"
+msgstr "Kategori :"
+
+#: include/customizer.php:1568 include/customizer.php:1585
+#: include/customizer.php:1778
+msgid "Change Image"
+msgstr "Ganti Gambar"
+
+#: include/customizer.php:16
+msgid ""
+"Choose default layout for Post list on page like Homepage, Archive, Tags, "
+"Category, Author, and Search"
+msgstr ""
+"Pilih tata letak default untuk daftar Pos pada laman seperti Beranda, Arsip, "
+"Tags, Kategori, Author, dan Pencarian"
+
+#: include/customizer.php:1566 include/customizer.php:1583
+#: include/customizer.php:1776
+msgid "Choose Image"
+msgstr "Pilih Gambar"
+
+#: include/customizer.php:27
+msgid "Choose Layout"
+msgstr "Pilih Tata Letak"
+
+#: include/customizer.php:30
+msgid "Classic + Sidebar"
+msgstr "Klasik + Sidebar"
+
+#: widgets/full-block-one.php:6
+msgid "Combination from Featured Slide, Latest Post Slide, and Trending Post."
+msgstr "Kombinasi dari Slide Unggulan, Slide Pos Terbaru, dan Pos Trending"
+
+#: include/theme-color.php:23
+msgid "Container Background"
+msgstr "Warna Latar Kontainer"
+
+#: widgets/full-block-one.php:264
+msgid "Daily"
+msgstr "Harian"
+
+#: include/template-cats.php:179 include/template-cats.php:245
+msgid "Day"
+msgstr "Hari"
+
+#: functions.php:286 functions.php:335 functions.php:335
+msgid "day"
+msgstr "hari"
+
+#: include/customizer.php:32
+msgid "Default"
+msgstr "Default"
+
+#: include/customizer.php:15
+msgid "Default Loop"
+msgstr "Default Loop"
+
+#: include/breadcrumb.php:6 include/breadcrumb.php:144
+msgid "Error 404"
+msgstr "Eror 404"
+
+#: include/template-cats.php:179
+msgid "Expired in"
+msgstr "Expired dalam"
+
+#: include/customizer.php:1601 include/user-profile.php:17
+msgid "Facebook"
+msgstr "Facebook"
+
+#: include/customizer.php:1741
+msgid "Facebook Pixel"
+msgstr "Facebook Pixel"
+
+#: widgets/full-block-one.php:19 widgets/full-block-one.php:245
+msgid "Featured"
+msgstr "Unggulan"
+
+#: widgets/full-block-one.php:253
+msgid "Featured Block Title :"
+msgstr "Judul Blok Unggulan"
+
+#: include/customizer.php:1677
+msgid "Floating Left"
+msgstr "Melayang Kiri"
+
+#: include/customizer.php:1688
+msgid "Floating Right"
+msgstr "Melayang Kanan"
+
+#: include/customizer.php:1498
+msgid "Font Family"
+msgstr "Nama Font"
+
+#: include/customizer.php:1510
+msgid "Font Size"
+msgstr "Ukuran Font"
+
+#: include/customizer.php:1759
+msgid "Footer Area"
+msgstr "Area Footer"
+
+#: include/theme-color.php:200
+msgid "Footer Color"
+msgstr "Warna Footer"
+
+#: include/customizer.php:1798
+msgid "Footer Copyright"
+msgstr "Copyright Footer"
+
+#: include/customizer.php:1771
+msgid "Footer Logo"
+msgstr "Logo Footer"
+
+#: include/customizer.php:1787
+msgid "Footer Text"
+msgstr "Teks Footer"
+
+#: include/customizer.php:1782 include/template-tags.php:97
+msgid "Fresh design for News category WordPress theme"
+msgstr "Desain segar untuk tema WordPress kategori News"
+
+#: widgets/full-block-one.php:10
+msgid "Full Block 1"
+msgstr "Full Block 1"
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr "Laman Lebar Penuh"
+
+#: include/customizer.php:10
+msgid "General Theme Setting"
+msgstr "Pengaturan Umum Tema"
+
+#: include/template-cats.php:287
+msgid "Get License"
+msgstr "Dapatkan Lisensi"
+
+#: include/customizer.php:1497
+msgid "Global"
+msgstr "Global"
+
+#: include/theme-color.php:11
+msgid "Global Background"
+msgstr "Warna Latar Global"
+
+#: include/theme-color.php:10 include/theme-color.php:35
+msgid "Global Color"
+msgstr "Warna Global"
+
+#: include/theme-color.php:98
+msgid "Header Background"
+msgstr "Warna Latar Header"
+
+#: include/theme-color.php:97 include/theme-color.php:110
+msgid "Header Color"
+msgstr "Warna Header"
+
+#: include/customizer.php:1526
+msgid "Heading"
+msgstr "Heading"
+
+#: include/breadcrumb.php:37 include/breadcrumb.php:45
+msgid "Home"
+msgstr "Beranda"
+
+#: functions.php:466
+msgid "Home Full Width"
+msgstr "Home Full Width"
+
+#: functions.php:287 functions.php:336 functions.php:336
+msgid "hour"
+msgstr "jam"
+
+#: include/customizer.php:1606 include/customizer.php:1621
+#: include/customizer.php:1636 include/customizer.php:1651
+#: include/user-profile.php:19 include/user-profile.php:25
+#: include/user-profile.php:31 include/user-profile.php:37
+msgid "https://..."
+msgstr "https://..."
+
+#. URI of the theme
+msgid "https://beritaxx.com"
+msgstr "https://beritaxx.com"
+
+#. Author URI of the theme
+msgid "https://beritaxx.com/teamxx"
+msgstr "https://beritaxx.com/teamxx"
+
+#: include/customizer.php:1723
+msgid "Inline Ads 1"
+msgstr "Inline Ads 1"
+
+#: include/customizer.php:1734
+msgid "Inline Ads 2"
+msgstr "Inline Ads 2"
+
+#: include/customizer.php:1752
+msgid "Insert Pixel ID"
+msgstr "Masukan Pixel ID"
+
+#: include/customizer.php:1631 include/user-profile.php:29
+msgid "Instagram"
+msgstr "Instagram"
+
+#. Description of the theme
+msgid ""
+"Introducing news category theme for WordPress with an attractive and simple "
+"design. Comes to give a new color with a fresh design, very easy setting so "
+"new users quickly understand."
+msgstr ""
+"Memperkenalkan tema kategori News untuk WordPress dengan desain yang menarik "
+"dan simple. Datang untuk memberi warna baru dengan design yang fresh, "
+"pengaturan yang sangat mudah sehingga cepat dipahami oleh pengguna baru."
+
+#: widgets/full-block-one.php:20 widgets/full-block-one.php:246
+msgid "Latest"
+msgstr "Terbaru"
+
+#: widgets/full-block-one.php:257
+msgid "Latest Block Title :"
+msgstr "Judul Blok Terbaru :"
+
+#: widgets/latest-sidebar.php:19 widgets/latest-sidebar.php:97
+msgid "Latest Post"
+msgstr "Pos Terbaru"
+
+#: widgets/latest-sidebar.php:10
+msgid "Latest Post (Sidebar)"
+msgstr "Latest Post (Sidebar)"
+
+#: include/template-cats.php:140
+#, php-format
+msgid "License : %s"
+msgstr "Lisensi : %s"
+
+#: include/template-cats.php:223
+msgid "License is Expired"
+msgstr "Lisensi Expired"
+
+#: include/theme-color.php:174
+msgid "Link Aksen 1 Color"
+msgstr "Warna Tautan Aksen 1"
+
+#: include/theme-color.php:186
+msgid "Link Aksen 2 Color"
+msgstr "Warna Aksen 2 Tautan"
+
+#: include/theme-color.php:59 include/theme-color.php:162
+#: include/theme-color.php:237
+msgid "Link Color"
+msgstr "Warna Tautan"
+
+#: functions.php:44
+msgid "Location Footer 1"
+msgstr "Lokasi Footer 1"
+
+#: functions.php:47
+msgid "Location Footer 2"
+msgstr "Lokasi Footer 2"
+
+#: functions.php:50
+msgid "Location Footer 3"
+msgstr "Lokasi Footer 2"
+
+#: functions.php:41
+msgid "Location Header Navigation"
+msgstr "Lokasi Navigasi Header"
+
+#: include/theme-color.php:161
+msgid "Menu Color"
+msgstr "Warna Menu"
+
+#: functions.php:288 functions.php:337 functions.php:337
+msgid "minute"
+msgstr "menit"
+
+#: functions.php:143
+msgid "minutes"
+msgstr "menit"
+
+#: functions.php:284 functions.php:333 functions.php:333
+msgid "month"
+msgstr "bulan"
+
+#: widgets/full-block-one.php:269 widgets/full-block-one.php:273
+msgid "Monthly"
+msgstr "Bulanan"
+
+#: widgets/full-top-comment.php:18 widgets/full-top-comment.php:103
+msgid "Most Commented"
+msgstr "Top Komentar"
+
+#: include/template-cats.php:299
+msgid "New Version"
+msgstr "Versi Terbaru"
+
+#: widgets/full-small-slide.php:127 widgets/full-top-comment.php:113
+#: widgets/latest-sidebar.php:106
+msgid "Number of posts to show :"
+msgstr "Jumlah pos ditampilkan :"
+
+#: include/theme-color.php:201
+msgid "Outer Background"
+msgstr "Warna Latar Luar"
+
+#: 404.php:7
+msgid "Page Not Found"
+msgstr "Halaman Tidak Ditemukan"
+
+#: include/news-feed.php:21 include/template-cats.php:296
+msgid "Q & A"
+msgstr "Tanya Jawab"
+
+#: content/related-post.php:10
+msgid "Related posts"
+msgstr "Pos terkait"
+
+#: include/template-cats.php:245
+msgid "Remaining"
+msgstr "Tersisa"
+
+#: include/customizer.php:1567 include/customizer.php:1584
+#: include/customizer.php:1777
+msgid "Remove Image"
+msgstr "Hapus Gambar"
+
+#: include/template-cats.php:172 include/template-cats.php:229
+msgid "Renew License"
+msgstr "Perbarui Lisensi"
+
+#: search.php:15
+msgid "Search : "
+msgstr "Cari :"
+
+#: include/theme-color.php:136
+msgid "Search Border"
+msgstr "Border Pencarian"
+
+#: include/theme-color.php:123 include/theme-color.php:124
+msgid "Search Color"
+msgstr "Warna Pencarian"
+
+#: include/theme-color.php:148
+msgid "Search Input Color"
+msgstr "Warna Input Pencarian"
+
+#: searchform.php:4 top-content/search.php:4
+msgid "Search something..."
+msgstr "Cari sesuatu..."
+
+#: functions.php:289 functions.php:316 functions.php:338 functions.php:338
+#: functions.php:365
+msgid "second"
+msgstr "detik"
+
+#: include/theme-color.php:47
+msgid "Second Color"
+msgstr "Warna Kedua"
+
+#: content/share-archive.php:4 content/share-post.php:4
+msgid "Share to Facebook"
+msgstr "Bagikan ke Facebook"
+
+#: content/share-archive.php:16 content/share-post.php:16
+msgid "Share to Telegram"
+msgstr "Bagikan ke Telegram"
+
+#: content/share-archive.php:7 content/share-post.php:7
+msgid "Share to Twitter"
+msgstr "Bagikan ke Twitter"
+
+#: content/share-archive.php:10 content/share-archive.php:13
+#: content/share-post.php:10 content/share-post.php:13
+msgid "Share to WhatsApp"
+msgstr "Bagikan ke WhatsApp"
+
+#: widgets/full-category-block.php:6
+msgid "Show 3 Category Block"
+msgstr "Tampilkan 3 Blok Kategori"
+
+#: widgets/latest-sidebar.php:6
+msgid "Show latest post on Sidebar"
+msgstr "Tampilkan pos terbaru di Sidebar"
+
+#: widgets/full-top-comment.php:6
+msgid "Show post with most comments."
+msgstr "Tampilkan pos dengan komentar terbanyak."
+
+#: functions.php:457
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: widgets/full-small-slide.php:6
+msgid "Slide width mini thumbnail"
+msgstr "Slide dengan thumbnail mini"
+
+#: widgets/full-small-slide.php:10
+msgid "Small Slide (Full)"
+msgstr "Small Slide (Full)"
+
+#: include/customizer.php:1590 include/user-profile.php:5
+msgid "Social Media"
+msgstr "Media Sosial"
+
+#: include/customizer.php:1711
+msgid "Sticky Bottom"
+msgstr "Menempel Bawah"
+
+#: archive.php:20
+#, php-format
+msgid "Tag : %s"
+msgstr "Tag : %s"
+
+#: include/theme-color.php:225
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: include/template-cats.php:305
+msgid "Theme Demo"
+msgstr "Demo Tema"
+
+#: include/template-cats.php:302
+msgid "Theme Feature"
+msgstr "Fitur Tema"
+
+#: include/customizer.php:9
+msgid "Theme Setting"
+msgstr "Pengaturan Tema"
+
+#: 404.php:8
+msgid "this page not found or link you visit is expired"
+msgstr "halaman ini tidak tersedia atau link yang Anda tuju telah kadaluarsa"
+
+#: include/customizer.php:41
+msgid "This theme use 1400+ fonts from Google Font."
+msgstr "Tema ini menggunakan 1400+ font dari Google Fonts."
+
+#: include/customizer.php:1550
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: include/customizer.php:1562
+msgid "Thumbnail Post"
+msgstr "Thumbnail Pos"
+
+#: include/customizer.php:1578
+msgid "Thumbnail Share"
+msgstr "Thumbnail Bagikan"
+
+#: widgets/full-top-comment.php:10
+msgid "Top Comment (Full)"
+msgstr "Top Comment (Full)"
+
+#: widgets/full-block-one.php:21 widgets/full-block-one.php:247
+msgid "Trending"
+msgstr "Trending"
+
+#: widgets/full-block-one.php:261
+msgid "Trending Block Title :"
+msgstr "Judul Blok Judul :"
+
+#: include/customizer.php:1616 include/user-profile.php:23
+msgid "Twitter"
+msgstr "Twitter"
+
+#: functions.php:285 functions.php:334 functions.php:334
+msgid "week"
+msgstr "minggu"
+
+#: widgets/full-block-one.php:265
+msgid "Weekly"
+msgstr "Mingguan"
+
+#: include/user-profile.php:11
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#. Author of the theme
+msgid "XX Team"
+msgstr "XX Team"
+
+#: functions.php:283 functions.php:332 functions.php:332
+msgid "year"
+msgstr "tahun"
+
+#: functions.php:256
+msgid "Yout comment awaiting Admin moderation."
+msgstr "Komentar Anda menunggu moderasi Admin"
+
+#: include/customizer.php:1646 include/user-profile.php:35
+msgid "Youtube"
+msgstr "Youtube"

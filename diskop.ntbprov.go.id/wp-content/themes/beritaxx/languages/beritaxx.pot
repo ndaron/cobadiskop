@@ -1,0 +1,679 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beritaxx Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-16 06:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: beritaxx"
+
+#: include/breadcrumb.php:150
+msgid " / Page : "
+msgstr ""
+
+#: single.php:25
+#, php-format
+msgid "%s reading"
+msgstr ""
+
+#: include/template-tags.php:112
+#, php-format
+msgid ""
+"&copy; %1$s. Beritaxx theme created by <a href=\"%2$s\">Team XX</a>. Proudly "
+"powered by <a href=\"%3$s\">WordPress</a>"
+msgstr ""
+
+#: functions.php:319 functions.php:368
+msgid "&nbsp;ago"
+msgstr ""
+
+#: widgets/full-category-block.php:10
+msgid "3 Block Category (Full)"
+msgstr ""
+
+#: include/user-profile.php:13
+msgid "62"
+msgstr ""
+
+#: functions.php:482
+msgid "<div class=\"related_title\">Read Also</div>"
+msgstr ""
+
+#: include/template-cats.php:131
+msgid "<span class=\"active\"> Active</span>"
+msgstr ""
+
+#: include/template-cats.php:133
+msgid "<span class=\"inactive\"> Expired</span>"
+msgstr ""
+
+#: include/template-cats.php:136
+msgid "<span class=\"inactive\"> Not Active</span>"
+msgstr ""
+
+#: include/template-cats.php:158
+msgid ""
+"<span class=\"red\">IMPORTANT</span> : You can keep using Pro featured even "
+"if <span class=\"blue\">LICENSE CODE</span> has <span class=\"red\">"
+"EXPIRED</span>.<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tWith  notes never <span class=\"red\">DEACTIVE</span> "
+"your <span class=\"blue\">LICENSE CODE</span> from this website !!!.<br/>"
+"<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tWhat if your website crashes and needs to be "
+"reinstalled?<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tIt is very <span class=\"red\">IMPORTANT</span> for "
+"you as website owner to regularly <span class=\"blue\">BACKUP</span> website "
+"data on hosting<br/>\n"
+"\t\t\t\t\t\t\t\t\t\t\tSo if the website is damaged you can <span "
+"class=\"blue\">RESTORE</span> back your <span class=\"blue\">BACKUP</span> "
+"data."
+msgstr ""
+
+#: functions.php:353
+msgid "a"
+msgstr ""
+
+#: include/template-cats.php:239
+#, php-format
+msgid "Active until : %s"
+msgstr ""
+
+#: include/customizer.php:1551
+msgid "Add default image to replace if post dont have thumbnail"
+msgstr ""
+
+#: include/customizer.php:1656
+msgid "Ads Slots"
+msgstr ""
+
+#: include/customizer.php:1666
+msgid "After Header"
+msgstr ""
+
+#: include/theme-color.php:72
+msgid "Aksen1 Color"
+msgstr ""
+
+#: include/theme-color.php:84
+msgid "Aksen2 Color"
+msgstr ""
+
+#: single.php:72
+msgid "Another post by"
+msgstr ""
+
+#: include/customizer.php:1539
+msgid "Article Font Size"
+msgstr ""
+
+#: include/breadcrumb.php:105
+msgid "Attachment"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Author : %s"
+msgstr ""
+
+#: include/customizer.php:1699
+msgid "Before Footer"
+msgstr ""
+
+#. Name of the theme
+msgid "Beritaxx"
+msgstr ""
+
+#: include/template-cats.php:79
+msgid "Beritaxx License"
+msgstr ""
+
+#. %s: WordPress version.
+#: include/back-compat.php:16
+#, php-format
+msgid ""
+"Beritaxx need at least WordPress version 5.8. Your current version is %s."
+msgstr ""
+
+#: include/template-cats.php:80
+msgid "Beritaxx Pro"
+msgstr ""
+
+#: widgets/full-block-one.php:280 widgets/full-category-block.php:283
+#: widgets/latest-sidebar.php:109
+msgid "Beritaxx Widget"
+msgstr ""
+
+#: include/customizer.php:31
+msgid "Block"
+msgstr ""
+
+#: widgets/full-category-block.php:221
+msgid "Block 1 Title"
+msgstr ""
+
+#: widgets/full-category-block.php:242
+msgid "Block 2 Title"
+msgstr ""
+
+#: widgets/full-category-block.php:263
+msgid "Block 3 Title"
+msgstr ""
+
+#: include/theme-color.php:213
+msgid "Block Background"
+msgstr ""
+
+#: widgets/full-top-comment.php:108 widgets/latest-sidebar.php:102
+msgid "Block Title"
+msgstr ""
+
+#: widgets/full-category-block.php:19 widgets/full-category-block.php:212
+msgid "Category 1"
+msgstr ""
+
+#: widgets/full-category-block.php:21 widgets/full-category-block.php:214
+msgid "Category 2"
+msgstr ""
+
+#: widgets/full-category-block.php:23 widgets/full-category-block.php:216
+msgid "Category 3"
+msgstr ""
+
+#: widgets/full-category-block.php:225 widgets/full-category-block.php:246
+#: widgets/full-category-block.php:267 widgets/full-small-slide.php:131
+msgid "Category :"
+msgstr ""
+
+#: include/customizer.php:1568 include/customizer.php:1585
+#: include/customizer.php:1778
+msgid "Change Image"
+msgstr ""
+
+#: include/customizer.php:16
+msgid ""
+"Choose default layout for Post list on page like Homepage, Archive, Tags, "
+"Category, Author, and Search"
+msgstr ""
+
+#: include/customizer.php:1566 include/customizer.php:1583
+#: include/customizer.php:1776
+msgid "Choose Image"
+msgstr ""
+
+#: include/customizer.php:27
+msgid "Choose Layout"
+msgstr ""
+
+#: include/customizer.php:30
+msgid "Classic + Sidebar"
+msgstr ""
+
+#: widgets/full-block-one.php:6
+msgid "Combination from Featured Slide, Latest Post Slide, and Trending Post."
+msgstr ""
+
+#: include/theme-color.php:23
+msgid "Container Background"
+msgstr ""
+
+#: widgets/full-block-one.php:264
+msgid "Daily"
+msgstr ""
+
+#: include/template-cats.php:179 include/template-cats.php:245
+msgid "Day"
+msgstr ""
+
+#: functions.php:286 functions.php:335 functions.php:335
+msgid "day"
+msgstr ""
+
+#: include/customizer.php:32
+msgid "Default"
+msgstr ""
+
+#: include/customizer.php:15
+msgid "Default Loop"
+msgstr ""
+
+#: include/breadcrumb.php:6 include/breadcrumb.php:144
+msgid "Error 404"
+msgstr ""
+
+#: include/template-cats.php:179
+msgid "Expired in"
+msgstr ""
+
+#: include/customizer.php:1601 include/user-profile.php:17
+msgid "Facebook"
+msgstr ""
+
+#: include/customizer.php:1741
+msgid "Facebook Pixel"
+msgstr ""
+
+#: widgets/full-block-one.php:19 widgets/full-block-one.php:245
+msgid "Featured"
+msgstr ""
+
+#: widgets/full-block-one.php:253
+msgid "Featured Block Title :"
+msgstr ""
+
+#: include/customizer.php:1677
+msgid "Floating Left"
+msgstr ""
+
+#: include/customizer.php:1688
+msgid "Floating Right"
+msgstr ""
+
+#: include/customizer.php:1498
+msgid "Font Family"
+msgstr ""
+
+#: include/customizer.php:1510
+msgid "Font Size"
+msgstr ""
+
+#: include/customizer.php:1759
+msgid "Footer Area"
+msgstr ""
+
+#: include/theme-color.php:200
+msgid "Footer Color"
+msgstr ""
+
+#: include/customizer.php:1798
+msgid "Footer Copyright"
+msgstr ""
+
+#: include/customizer.php:1771
+msgid "Footer Logo"
+msgstr ""
+
+#: include/customizer.php:1787
+msgid "Footer Text"
+msgstr ""
+
+#: include/customizer.php:1782 include/template-tags.php:97
+msgid "Fresh design for News category WordPress theme"
+msgstr ""
+
+#: widgets/full-block-one.php:10
+msgid "Full Block 1"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#: include/customizer.php:10
+msgid "General Theme Setting"
+msgstr ""
+
+#: include/template-cats.php:287
+msgid "Get License"
+msgstr ""
+
+#: include/customizer.php:1497
+msgid "Global"
+msgstr ""
+
+#: include/theme-color.php:11
+msgid "Global Background"
+msgstr ""
+
+#: include/theme-color.php:10 include/theme-color.php:35
+msgid "Global Color"
+msgstr ""
+
+#: include/theme-color.php:98
+msgid "Header Background"
+msgstr ""
+
+#: include/theme-color.php:97 include/theme-color.php:110
+msgid "Header Color"
+msgstr ""
+
+#: include/customizer.php:1526
+msgid "Heading"
+msgstr ""
+
+#: include/breadcrumb.php:37 include/breadcrumb.php:45
+msgid "Home"
+msgstr ""
+
+#: functions.php:466
+msgid "Home Full Width"
+msgstr ""
+
+#: functions.php:287 functions.php:336 functions.php:336
+msgid "hour"
+msgstr ""
+
+#: include/customizer.php:1606 include/customizer.php:1621
+#: include/customizer.php:1636 include/customizer.php:1651
+#: include/user-profile.php:19 include/user-profile.php:25
+#: include/user-profile.php:31 include/user-profile.php:37
+msgid "https://..."
+msgstr ""
+
+#. URI of the theme
+msgid "https://beritaxx.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://beritaxx.com/teamxx"
+msgstr ""
+
+#: include/customizer.php:1723
+msgid "Inline Ads 1"
+msgstr ""
+
+#: include/customizer.php:1734
+msgid "Inline Ads 2"
+msgstr ""
+
+#: include/customizer.php:1752
+msgid "Insert Pixel ID"
+msgstr ""
+
+#: include/customizer.php:1631 include/user-profile.php:29
+msgid "Instagram"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Introducing news category theme for WordPress with an attractive and simple "
+"design. Comes to give a new color with a fresh design, very easy setting so "
+"new users quickly understand."
+msgstr ""
+
+#: widgets/full-block-one.php:20 widgets/full-block-one.php:246
+msgid "Latest"
+msgstr ""
+
+#: widgets/full-block-one.php:257
+msgid "Latest Block Title :"
+msgstr ""
+
+#: widgets/latest-sidebar.php:19 widgets/latest-sidebar.php:97
+msgid "Latest Post"
+msgstr ""
+
+#: widgets/latest-sidebar.php:10
+msgid "Latest Post (Sidebar)"
+msgstr ""
+
+#: include/template-cats.php:140
+#, php-format
+msgid "License : %s"
+msgstr ""
+
+#: include/template-cats.php:223
+msgid "License is Expired"
+msgstr ""
+
+#: include/theme-color.php:174
+msgid "Link Aksen 1 Color"
+msgstr ""
+
+#: include/theme-color.php:186
+msgid "Link Aksen 2 Color"
+msgstr ""
+
+#: include/theme-color.php:59 include/theme-color.php:162
+#: include/theme-color.php:237
+msgid "Link Color"
+msgstr ""
+
+#: functions.php:44
+msgid "Location Footer 1"
+msgstr ""
+
+#: functions.php:47
+msgid "Location Footer 2"
+msgstr ""
+
+#: functions.php:50
+msgid "Location Footer 3"
+msgstr ""
+
+#: functions.php:41
+msgid "Location Header Navigation"
+msgstr ""
+
+#: include/theme-color.php:161
+msgid "Menu Color"
+msgstr ""
+
+#: functions.php:288 functions.php:337 functions.php:337
+msgid "minute"
+msgstr ""
+
+#: functions.php:143
+msgid "minutes"
+msgstr ""
+
+#: functions.php:284 functions.php:333 functions.php:333
+msgid "month"
+msgstr ""
+
+#: widgets/full-block-one.php:269 widgets/full-block-one.php:273
+msgid "Monthly"
+msgstr ""
+
+#: widgets/full-top-comment.php:18 widgets/full-top-comment.php:103
+msgid "Most Commented"
+msgstr ""
+
+#: include/template-cats.php:299
+msgid "New Version"
+msgstr ""
+
+#: widgets/full-small-slide.php:127 widgets/full-top-comment.php:113
+#: widgets/latest-sidebar.php:106
+msgid "Number of posts to show :"
+msgstr ""
+
+#: include/theme-color.php:201
+msgid "Outer Background"
+msgstr ""
+
+#: 404.php:7
+msgid "Page Not Found"
+msgstr ""
+
+#: include/news-feed.php:21 include/template-cats.php:296
+msgid "Q & A"
+msgstr ""
+
+#: content/related-post.php:10
+msgid "Related posts"
+msgstr ""
+
+#: include/template-cats.php:245
+msgid "Remaining"
+msgstr ""
+
+#: include/customizer.php:1567 include/customizer.php:1584
+#: include/customizer.php:1777
+msgid "Remove Image"
+msgstr ""
+
+#: include/template-cats.php:172 include/template-cats.php:229
+msgid "Renew License"
+msgstr ""
+
+#: search.php:15
+msgid "Search : "
+msgstr ""
+
+#: include/theme-color.php:136
+msgid "Search Border"
+msgstr ""
+
+#: include/theme-color.php:123 include/theme-color.php:124
+msgid "Search Color"
+msgstr ""
+
+#: include/theme-color.php:148
+msgid "Search Input Color"
+msgstr ""
+
+#: searchform.php:4 top-content/search.php:4
+msgid "Search something..."
+msgstr ""
+
+#: functions.php:289 functions.php:316 functions.php:338 functions.php:338
+#: functions.php:365
+msgid "second"
+msgstr ""
+
+#: include/theme-color.php:47
+msgid "Second Color"
+msgstr ""
+
+#: content/share-archive.php:4 content/share-post.php:4
+msgid "Share to Facebook"
+msgstr ""
+
+#: content/share-archive.php:16 content/share-post.php:16
+msgid "Share to Telegram"
+msgstr ""
+
+#: content/share-archive.php:7 content/share-post.php:7
+msgid "Share to Twitter"
+msgstr ""
+
+#: content/share-archive.php:10 content/share-archive.php:13
+#: content/share-post.php:10 content/share-post.php:13
+msgid "Share to WhatsApp"
+msgstr ""
+
+#: widgets/full-category-block.php:6
+msgid "Show 3 Category Block"
+msgstr ""
+
+#: widgets/latest-sidebar.php:6
+msgid "Show latest post on Sidebar"
+msgstr ""
+
+#: widgets/full-top-comment.php:6
+msgid "Show post with most comments."
+msgstr ""
+
+#: functions.php:457
+msgid "Sidebar"
+msgstr ""
+
+#: widgets/full-small-slide.php:6
+msgid "Slide width mini thumbnail"
+msgstr ""
+
+#: widgets/full-small-slide.php:10
+msgid "Small Slide (Full)"
+msgstr ""
+
+#: include/customizer.php:1590 include/user-profile.php:5
+msgid "Social Media"
+msgstr ""
+
+#: include/customizer.php:1711
+msgid "Sticky Bottom"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Tag : %s"
+msgstr ""
+
+#: include/theme-color.php:225
+msgid "Text Color"
+msgstr ""
+
+#: include/template-cats.php:305
+msgid "Theme Demo"
+msgstr ""
+
+#: include/template-cats.php:302
+msgid "Theme Feature"
+msgstr ""
+
+#: include/customizer.php:9
+msgid "Theme Setting"
+msgstr ""
+
+#: 404.php:8
+msgid "this page not found or link you visit is expired"
+msgstr ""
+
+#: include/customizer.php:41
+msgid "This theme use 1400+ fonts from Google Font."
+msgstr ""
+
+#: include/customizer.php:1550
+msgid "Thumbnail"
+msgstr ""
+
+#: include/customizer.php:1562
+msgid "Thumbnail Post"
+msgstr ""
+
+#: include/customizer.php:1578
+msgid "Thumbnail Share"
+msgstr ""
+
+#: widgets/full-top-comment.php:10
+msgid "Top Comment (Full)"
+msgstr ""
+
+#: widgets/full-block-one.php:21 widgets/full-block-one.php:247
+msgid "Trending"
+msgstr ""
+
+#: widgets/full-block-one.php:261
+msgid "Trending Block Title :"
+msgstr ""
+
+#: include/customizer.php:1616 include/user-profile.php:23
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:285 functions.php:334 functions.php:334
+msgid "week"
+msgstr ""
+
+#: widgets/full-block-one.php:265
+msgid "Weekly"
+msgstr ""
+
+#: include/user-profile.php:11
+msgid "WhatsApp"
+msgstr ""
+
+#. Author of the theme
+msgid "XX Team"
+msgstr ""
+
+#: functions.php:283 functions.php:332 functions.php:332
+msgid "year"
+msgstr ""
+
+#: functions.php:256
+msgid "Yout comment awaiting Admin moderation."
+msgstr ""
+
+#: include/customizer.php:1646 include/user-profile.php:35
+msgid "Youtube"
+msgstr ""

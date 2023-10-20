@@ -1,0 +1,83 @@
+html {
+	background: none;
+}
+
+.login {
+	background-image: url('images/bars.png');
+	font-family: 'Oleo Script', cursive;
+}
+.login #login {
+	position: relative;
+}
+
+.login #login h1 {
+	position: absolute;
+	top: 47%;
+	left: 106%;
+}
+
+.login #login h1 a {
+	background-position: center;
+}
+.login #login h1 {
+	border-radius: 50%;
+	border: 3px solid #e4ccad;
+	background-position: center;
+	width: 80px !important;
+	height: 80px;
+	overflow: hidden;
+}
+
+
+.login #loginform {
+	width: 275px;
+	margin: 50px auto;
+	padding: 50px 130px 10px 25px;
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+	box-shadow: 0 0 2px #aaa;
+	border: 6px solid rgba(221, 218, 215, 0.23);
+	border-top-right-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+
+
+.login label {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	border: 1px solid rgba(51,51,51,.5);
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	width: 100%;
+	font-family: 'Oleo Script', cursive;
+	text-align: center;	
+}
+
+.login .button {
+	font-family: 'Oleo Script', cursive;
+	font-size: 18px;
+	border: 1px solid #000;
+	padding: 5px 10px;
+	border: 1px solid rgba(51,51,51,.5);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 1px 1px #aaa;
+	-moz-box-shadow: 2px 1px 1px #aaa;
+	box-shadow: 2px 1px 1px #aaa;
+	cursor: pointer;
+	clear: both;
+}
+
+.login .message {
+	background: rgba(255,255,255,.5);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;
+	border-left: 4px solid #1A1B18;
+}

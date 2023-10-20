@@ -1,0 +1,121 @@
+html {
+	background: none;
+}
+
+.login #login h1 a {
+	background-position: center;
+}
+
+.login {
+	background-image: url('images/blue-bg.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+
+.login #loginform {
+	background-image: url('images/blue-login.jpg') !important;
+	background-repeat: no-repeat;
+	background: none;
+	width: 100%;
+	height: 278px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 10px 10px 3px;
+	-webkit-box-shadow: none;
+}
+
+#login form p:nth-child(1), #login form p:nth-child(2) {
+	margin-left: auto;
+	width: 290px;
+	padding: 7px
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	background-image: url('images/blue-input.jpg');
+	height: 40px;
+	width: 260px;
+	border: 1px solid #6ba1d1;
+	margin-bottom: 20px;
+	font-size: 20pt;
+	color: #ffffff;
+	line-height: 47px;
+	padding-left: 4px;
+	border-radius: 5px;
+}
+
+.login form input[type=checkbox] {
+	margin-left: 20px;
+	border: 1px solid #6ba1d1;
+	background: #F2F2F2;
+}
+
+
+
+
+.login #loginform input[type=text]:focus, .login #loginform input[type=password]:focus {
+	outline: none;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(110,110,110,1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(110,110,110,1);
+	box-shadow: 0px 0px 5px 1px rgba(110,110,110,1);
+
+}
+
+
+.login label {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 25px;
+}
+
+.login .button {
+	background-color: #F2F5F7 !important;
+	margin-right: 35px;
+	padding: 8px 5px;
+	border-radius: 5px;
+	box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	font-weight: bold;
+	font-family: 'Raleway', 'Lato', Arial, sans-serif;
+	line-height: 30px !important;
+	color: #4983b5;
+
+}
+
+.login .button:hover {
+	box-shadow: inset 0 1px rgba(255,255,255,0.4), 0 2px 1px rgba(0,0,0,0.1);
+	background-color: #4983b5 !important;
+	border: 1px solid #2E64FE;
+	color: #000;
+
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #F2F5F7;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #0A0A2A;
+
+}
+
+.login .message {
+	background-color: #4983b5;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #F2F5F7;
+	text-align: center;
+	border-left: 10px solid #F2F5F7;
+	border-right: 10px solid #F2F5F7;
+	border-radius: 6px;
+	width: 90%;
+}

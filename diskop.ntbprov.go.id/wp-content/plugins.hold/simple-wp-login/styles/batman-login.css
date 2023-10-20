@@ -1,0 +1,125 @@
+html {
+	background: none;
+}
+
+.login {
+	font-family: 'Open Sans', sans-serif;
+	background: url('images/batman.jpg') no-repeat center fixed;
+	background-size: 100% 100%;
+}
+
+.login #login {
+	position: relative;
+	margin-top: 100px;
+}
+
+.login #login h1 {
+	position: absolute;
+	top: 16%;
+	left: 84%;
+}
+
+.login #login h1 a {
+	border: 6px solid rgba(10, 25, 42, 0.23);
+	-webkit-border-radius: 50%;
+	background-color: #0A192A;
+	background-size: 115% 115% !important;
+	-webkit-background-size: 115% 115%;
+	background-position: center;
+	width: 80px !important;
+}
+
+.login #loginform {
+	background: #0A192A;
+	border-top-right-radius: 15%;
+	border-bottom-left-radius: 10%;
+	overflow: hidden;
+	position: initial;
+	box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+	border-radius: 0.4em;
+
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	padding: 8px 5px;
+	background: linear-gradient(to bottom, rgba(167,167,167,1) 0%,rgba(181,181,181,1) 21%,rgba(228,228,228,1) 79%,rgba(242,242,242,1) 100%);
+	border: 1px solid #222;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1);
+	border-radius: 0.3em;
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 15px;
+	outline: none;
+}
+
+.login #loginform input[type=checkbox] {
+	background: linear-gradient(to bottom, rgba(167,167,167,1) 0%,rgba(181,181,181,1) 21%,rgba(228,228,228,1) 79%,rgba(242,242,242,1) 100%);
+	border: 1px solid rgba(78,48,67, 0.8);
+}
+
+.login form .forgetmenot label {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: inherit;
+}
+
+.login #loginform input[type=text]:focus, .login #loginform input[type=password]:focus {
+	outline: none;
+	-webkit-box-shadow: 0px 0px 4px 2px rgba(110,110,110,1);
+	-moz-box-shadow: 0px 0px 4px 2px rgba(110,110,110,1);
+	box-shadow: 0px 0px 4px 2px rgba(110,110,110,1);
+	}
+
+.login label {
+	color: rgba(137, 192, 243, 0.8);
+	display: block;
+	font-size: 13px;
+	padding-bottom: 9px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.login .button {
+	padding: 0px 20px !important;
+	border: 1px solid #439F07;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), inset 0 10px 10px rgba(255,255,255,0.1);
+	border-radius: 0.3em;
+	background: linear-gradient(to bottom, rgba(138,199,84,1) 0%,rgba(121,201,50,1) 45%,rgba(102,190,24,1) 48%,rgba(57,150,2,1) 97%,rgba(102,174,63,1) 100%);
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+	outline: none;
+}
+
+.login .button:hover {
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),
+ 	inset 0 -10px 10px rgba(255,255,255,0.1) ;
+ 	background: linear-gradient(to bottom, rgba(102,174,63,1) 0%,rgba(57,150,2,1) 3%,rgba(102,190,24,1) 52%,rgba(121,201,50,1) 55%,rgba(138,199,84,1) 100%);
+ 	border: none;
+ 	outline: none;
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #0A192A;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #fff;
+
+}
+
+.login .message {
+	position: absolute;
+	top: -1%;
+	left: 10%;
+	border-left: 5px solid #0A192A;
+	width: 210px;
+	background: linear-gradient(to bottom, rgba(167,167,167,1) 0%,rgba(181,181,181,1) 21%,rgba(228,228,228,1) 79%,rgba(242,242,242,1) 100%);
+	color: #0A192A;
+}

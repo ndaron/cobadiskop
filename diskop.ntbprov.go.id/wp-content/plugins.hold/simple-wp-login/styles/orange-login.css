@@ -1,0 +1,99 @@
+html {
+	background: none;
+}
+
+.login {
+	font: 16px Helvetica;
+	background: #d35400;
+}
+
+.login #login h1 a {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: 40px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+	background-color: #f39c12;
+	background-image: url('images/logo.jpg');
+	background-size: 115% 115%;
+	-webkit-background-size: 115% 115%;
+	background-position: center;
+	
+}
+
+
+.login #loginform {
+	width: 215px;
+	background: #ecf0f1;
+	padding: 60px 30px 20px 30px;
+	margin: 5px auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	width: 100%;
+	background: #bdc3c7;
+	border: none;
+	height: 30px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;	
+}
+
+
+.login label {
+	color: #0B3B39;
+}
+
+.login .button {
+	width: 100%;
+	height: 35px;
+	border: none;
+	background: #3498db;
+	color: #ecf0f1;
+	font-weight: 100;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	transition: all ease-in-out .2s;
+	border-bottom: 3px solid #2980b9;
+	margin-top: 20px;
+	line-height: 35px;
+}
+
+.login .button:hover {
+	background: #2980b9;
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #58D3F7;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #fff;
+
+}
+
+.login form .forgetmenot{
+	padding-top: 5px;
+}
+
+.login form .forgetmenot label {
+	font-weight: 600;
+}
+
+.login .message {
+	position: absolute;
+	top: 12%;
+	left: 40%;
+	border-left: 5px solid #3498db;
+	width: 234px;
+	height: 20px;
+	text-align: center;
+	background: #ecf0f1; 
+}

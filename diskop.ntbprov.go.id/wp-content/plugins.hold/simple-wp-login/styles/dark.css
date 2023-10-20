@@ -1,0 +1,74 @@
+html {
+	background: none;
+}
+
+.login {
+	background-image: url('images/background.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+.login #loginform {
+	background-color: #585858;
+	-webkit-box-shadow: 13px 15px 51px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 13px 15px 51px -5px rgba(0,0,0,0.75);
+	box-shadow: 13px 15px 51px -5px rgba(0,0,0,0.75);	
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	border: 2px solid #000;
+}
+
+.login #login h1 a {
+	border: 2px solid #000;
+	border-radius: 20px;
+	background-size: auto 100% !important;
+}
+
+.login #loginform input[type=text], .login #loginform input[type=password] {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.login #loginform input[type=text]:focus, .login #loginform input[type=password]:focus {
+	outline: none;
+	border: 1px solid #000;
+}
+
+.login label {
+	color: #FFF;
+}
+
+.login .button {
+	background-color: #E6E6E6;
+	color: #848484;
+	border: none;
+	outline: none;
+}
+
+.login .button:hover {
+	background-color: #BDBDBD;
+	box-shadow: none;
+	border: none;
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #FFF;
+}
+
+.login .message {
+	border-left: 4px solid #000;
+	border-right: 4px solid #000;
+	background-color: #8a8a8a;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	border: 2px solid #000;
+}
