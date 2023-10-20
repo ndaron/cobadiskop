@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/***************************************
+	Theme Name: Diskop Pedia
+	Theme URI: http://diskop.ntbprov.go.id/
+	Description: A Premium News Theme
+	Author: Diskop
+	Author URI: http://diskop.ntbprov.go.id/
+	Version: 2.2.1
+	License: license purchased
+	License URI: http://diskop.ntbprov.go.id
+
+	Tags: two-columns, fixed-width, custom-background, threaded-comments, translation-ready, custom-menu
+***************************************/
+
+/* ----------------------------------------------------- START RESET CSS-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+body {
+	background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active { /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+	outline: 0;
+}
+a img {
+	border: 0;
+}
+.clearfix {
+	clear:both
+}
+
+/* ------------------------------------------- START GLOBAL CSS ------------------------------------------- */
+
+a {text-decoration:none}
+a:link {text-decoration:none}
+a:visited {}
+a:hover {text-decoration:underline}
+a:focus {outline:none}
+h1 { font-size: 26px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+h6 { font-size: 12px; }
+p {margin:10px 0}
+p img { padding:0;max-width:100%; }
+.container { width:900px; margin:0 auto; }
+.alignleft { float:left }
+.alignright { float:right }
+.aligncenter, div.aligncenter{ display:block; margin:0 auto; text-align:center; }
+img.alignleft { margin:5px 15px 10px 0; }
+img.alignright { margin:5px 0 10px 10px; }
+img.aligncenter { margin:10px auto; }
+.wp-caption { text-align:center; border-bottom:1px solid #DADADA; background-color:#fff; padding-top:5px; margin-bottom:10px !important; max-width:100%; }
+.wp-caption img { max-width:100%; }
+.wp-caption p.wp-caption-text { font-size:11px; line-height:18px; padding:0 4px 5px; margin:0; }
+
+
+/* ------------------------------------------- START Layout CSS ------------------------------------------- */
+
+body { font:13px/20px "Helvetica Neue",Arial,Helvetica,sans-serif; color:#444444; }
+#wrap { width:930px; margin:0 auto; background:#FFFFFF; }
+#main { float:left; width:900px; padding:15px; }
+#content { float:left; width:585px; margin-right:15px; }
+#sidebar { float:left; width:300px }
+
+
+/* ------------------------------------------- START Header CSS ------------------------------------------- */
+
+#header { width:900px; height:75px; padding:10px 0; margin:0 auto; text-align:center; }
+#header .logo { float:left; height:75px; display:inline-block; }
+#header .right { float:right; }
+
+
+/* ------------------------------------------- START Entry CSS ------------------------------------------- */
+
+.post { border-bottom:1px solid #F2F2F2; padding:10px 0; overflow:hidden; }
+.post h2 { font-size:16px; line-height:22px; margin-bottom:5px; }
+.post h2 a { color:#212121; }
+.post h2 a:hover { text-decoration:none; }
+.post-1 { border-top:1px solid #F2F2F2; }
+.post .thumb { float:left; width:125px; height:100px; display:block; margin-right:10px; }
+.post p { margin:0; line-height:18px; }
+.post .meta { font-size:12px; color: gray; margin:5px 0; display:block; font-style:italic; }
+.post .meta a { color:gray; }
+.post .link a { font-size:12px; margin-right:5px; font-weight:bold; text-transform:uppercase; }
+
+
+/* ------------------------------------------- START Entry CSS ------------------------------------------- */
+
+.entry {}
+.entry img { max-width:585px; }
+.entry p { line-height:20px; }
+.entry blockquote { margin: 20px 20px; padding: 0 30px 0 20px; overflow: hidden; border-left: 10px solid #F7F7F7; }
+.entry ul, .entry ol { margin:0 0 5px 20px; }
+.entry ol { list-style-type:decimal; }
+.entry ul { list-style-type: square; }
+.entry ul ul, .entry ul ol, .entry ol ol, .entry ol ul { margin:0 0 0 20px; }
+.entry h1.title { color:#212121; font-size:20px; line-height:24px;  }
+.entry h2, .entry h3, .entry h4 { font-size:13px; margin:5px 0; }
+.entry table { width: 100%; border: 1px solid #e9e9e9; margin: 1.0em 0; border-collapse: collapse; border-spacing: 0; }
+.entry table th { padding: 6px 3px; background:#eee; border: 1px solid #e9e9e9; }
+.entry table td { padding: 3px 5px 3px 5px; border: 1px solid #e9e9e9; }
+.entry .ads { margin-bottom:10px; max-width:336px; display:block; }
+.entry .ads span { font-size:11px; margin-bottom:5px; text-align:left; display:block; }
+.entry .meta { font-size:12px; color: gray; margin-top:5px; display:block; font-style:italic; }
+.entry .meta span { margin-right:5px; }
+.entry .meta a { color:gray; }
+.reviewsnip { background:#efefef; font-size:11px; padding:5px 10px; float:left; }
+
+
+/* ------------------------------------------- START Share CSS ------------------------------------------- */
+
+.social-container { margin:15px 0; width:100%; }
+.SocialCustomMenu { margin:0; }
+.SocialCustomMenu span { display:inline; padding:5px; text-decoration:none; font-size:0.95em; }
+.SocialCustomMenu a, SocialCustomMenu a:visited { display:inline; padding:5px; color:white!important; text-decoration:none; font-size:0.95em;}
+.sTwitter { background-color:#7cd5fd; }
+.sFacebook { background-color:#45619d; }
+.sGoogleplus { background-color:#af291d; }
+.sPinterest { background-color:#cb2027; }
+.share_text { background:#efefef; color:#333 !important; }
+
+
+/* ------------------------------------------- START Related CSS ------------------------------------------- */
+
+.related_posts { width:100%; font-size:12px; margin-top:15px; }
+.related_posts .thumb { float:left; width:80px; height:60px; margin-right:10px; overflow:hidden; }
+.related_posts ul { margin:10px 0; }
+.related_posts ul li { padding:5px 0px; display:inline-block; overflow:hidden; margin-bottom:5px; border-bottom:1px dotted #dfdfdf; }
+.related_posts h4 { font-size:13px; line-height:15px; margin-bottom:5px; }
+.related_posts h4 a { color:#212121; }
+.related_posts h4 a:hover { text-decoration:none; }
+.related_posts p { margin:0; }
+.related_posts .relatedcontent { float:left; overflow:hidden; }
+
+
+/* ------------------------------------------- START Sidebar CSS ------------------------------------------- */
+
+#sidebar h3.title  { background:#eff0ef; margin-bottom:5px; font-size:11px; font-weight:bold; line-height:11px; text-transform:uppercase; color:#000; }
+#sidebar h3.title span  { border-left-width:5px; border-left-style:solid; background:#ffffff; padding:0 7px; }
+#sidebar .widget { margin-bottom:15px; }
+#sidebar .widget .inner{}
+#sidebar .widget ul {}
+#sidebar .widget ul li { background:url(img/list.png) no-repeat scroll 0px 13px transparent; padding:4px 4px 4px 10px; border-bottom:1px dotted #dfdfdf; }
+#sidebar table { width:100%; font-size:100%; border:1px solid #F2F2F2; border-bottom:none; border-right:none; }
+#sidebar table td { padding: 2px 3px; border-right:1px solid #F2F2F2; border-bottom:1px solid #F2F2F2; }
+#sidebar a { color:#212121; }
+
+
+/* ------------------------------------------- START Footer CSS ------------------------------------------- */
+
+#footer { width:100%; background:#212121; font-size:12px; }
+#footer .inner { padding:5px 15px; overflow:hidden; }
+#footer .copyright { float:left; color:#FFF; }
+#footer .copyright a { color:#FFF; }
+#footer .menu { float:right; }
+#footer .menu ul {}
+#footer .menu ul li { float:left; background: url(img/separate.gif) no-repeat right center; padding:0 10px 0 9px;}
+#footer .menu ul li:last-child  { background: none; }
+#footer .menu ul li a { line-height:15px; text-transform:capitalize; color:#FFF;}
+
+
+/* ------------------------------------------- START Menu CSS ------------------------------------------- */
+
+nav select { display:none; border:1px solid #dfdfdf; padding:3px; }
+#main-menu { width:900px; margin:0 auto; height:36px; font-size:12px; border-top:1px solid #dfdfdf; border-bottom-width:4px; border-bottom-style:solid; font-family: 'Open Sans', sans-serif; font-weight:800; text-align:center; }
+#main-menu .ihome { float:left; margin:5px 10px; display:inline; } 
+#main-menu .main-menu { padding:8px 0; text-align:left; }
+#main-menu .main-menu ul { width:100%; }
+#main-menu .main-menu li { float:left; border-right:1px solid #bfbfbf; }
+#main-menu .main-menu li:first-child { border-left:1px solid #bfbfbf; }
+#main-menu .main-menu li:last-child  { border:none; }
+#main-menu .main-menu li a { color:#000; display:block; text-transform:uppercase; padding:0 10px; overflow:hidden; }
+#main-menu .main-menu li a:hover {}
+
+#main-menu .main-menu li li a, #main-menu .main-menu li li a:link, #main-menu .main-menu li li a:visited { color:#fff; position:relative; text-transform:uppercase; width:138px; padding:8px 12px; border-bottom-width:1px; border-bottom-style:solid; }
+#main-menu .main-menu li li a:hover,.main-menu li li a:active { background:#000; }
+#main-menu .main-menu li li:first-child { border:none; }
+#main-menu .main-menu li li { border:none; }
+#main-menu .main-menu li ul{ height:auto; left:-9999px; position:absolute; width:160px; z-index:9999; margin:0; padding-top:8px; }
+#main-menu .main-menu li ul a { width:140px; }
+#main-menu .main-menu li ul ul { margin:-33px 0 0 159px; }
+#main-menu .main-menu li:hover>ul { left:auto; }
+
+
+/* ------------------------------------------- START Pagenavi CSS ------------------------------------------- */
+
+.Nav { font-size:12px; width:100%; margin:15px 0; }
+.Nav a { border:1px solid #ddd; color:#000; background:#f9f9f9; padding:6px; }
+.Nav a:visited { border:1px solid #ccc; background:#f9f9f9; }
+.Nav a:hover { background:#f9f9f9; text-decoration:none; }
+.Nav span { background:#f9f9f9; border:1px solid #ccc; margin-right:3px; padding:6px 5px; }
+.Nav .on { background:#f9f9f9; border:1px solid #ccc; padding:6px; }
+
+
+/* ------------------------------------------- START Other CSS ------------------------------------------- */
+
+.widget-title, .breadcrumbs { background:#eff0ef; margin-bottom:10px; font-size:10px; font-weight:bold; line-height:10px; text-transform:uppercase; }
+.widget-title span, .breadcrumbs span { border-left-width:5px; border-left-style:solid; background:#ffffff; padding:0 7px; }
+.ads { display:block; margin-bottom:15px; }
+.ads .adstext { font-size:11px; border-bottom:3px solid #bfbfbf; margin-bottom:5px; }
+
+
+/* ------------------------------------------- START Responsive CSS ------------------------------------------- */
+
+@media only screen and ( max-width: 769px ) {
+img,video,object {
+  max-width: 100%;
+}
+#wrap, #main { width:96%; }
+#main { width:96%; padding:2%; }
+#main-menu, #footer { width:100%; }
+#header { width:96%; padding:2%; }
+#content { width:60%; margin-right:2%; }
+#content img { max-width:100%; }
+#sidebar { width:38%; }
+.wp-caption { width:100%; }
+.post .thumb { width:100px; height:80px; }
+.sosmed  { display:none; }
+#footer .menu { float:left; }
+#footer .menu ul li:first-child { padding-left:0; }
+}
+
+@media only screen and ( max-width: 600px ) {
+img,video,object {
+  max-width: 100%;
+}
+#wrap { width:96%; }
+#main { padding:0; width:100%; }
+#mmenu, .entry, .wp-caption, #footer .copyright { width:100%; }
+#sidebar, #content, #footer { width:96%; padding:0 2%; margin:0; }
+#header .logo { float:none; }
+.breadcrumbs, .widget-title { margin-top:10px; }
+nav ul, #main-menu .ihome, #fb-comments  { display:none; }
+nav select { display:inline-block; width:250px; height:25px; margin:5px 0; overflow:hidden; background:#EFEFEF; float:none; font-size:13px;}
+}
+@media (max-width:479px){
+
+}

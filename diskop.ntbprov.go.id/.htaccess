@@ -1,0 +1,124 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+#WriteCheckString:1597027644_57810
+RewriteRule .* - [E=HTTP_MOD_REWRITE:On]
+RewriteRule ^rewrite_test_1597027644_57810/? /wp-content/plugins/wp-hide-security-enhancer/include/rewrite-confirm.php [L,QSA]
+
+RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/wph/%{HTTP_HOST}%{REQUEST_URI}" -f
+RewriteRule .* "/wp-content/cache/wph/%{HTTP_HOST}%{REQUEST_URI}" [L]
+
+RewriteRule ^desain/diskop.css /wp-content/plugins/wp-hide-security-enhancer/router/file-process.php?action=style-clean&file_path=/wp-content/themes/diskop/style.css&replacement_path=/desain/diskop.css [L,QSA]
+
+RewriteRule ^desain/diskop.css /wp-content/themes/diskop/style.css [L,QSA]
+
+RewriteRule ^desain/(.+) /wp-content/themes/diskop/$1 [L,QSA]
+
+RewriteRule ^code/(.+) /wp-content/plugins/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-content/plugins(.+) /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule ^wp-includes(.*) /index.php?wph-throw-404 [L]
+
+RewriteRule ^inc/(.+) /wp-includes/$1 [L,QSA]
+
+RewriteRule ^data/(.+) /wp-content/uploads/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^http://diskop.ntbprov.go.id/wp-content/uploads/(.+) /index.php?wph-throw-404 [L]
+
+RewriteRule ^r.php /xmlrpc.php [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^xmlrpc.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^license.txt /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-activate.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^readme.html /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} !wp-activate.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-cron.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-signup.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-register.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-comments-post.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-login.php [NC]
+RewriteRule ^wp-([a-z-])+.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-signup.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REMOTE_ADDR} !^156\.67\.212\.17$
+RewriteRule ^wp-cron.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^wp-json(.+) /index.php?wph-throw-404 [L]
+
+RewriteRule ^komentar.php /wp-comments-post.php [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-comments-post.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^direktori/(.+) /wp-content/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule ^wp-content(.+) /index.php?wph-throw-404 [L]
+
+RewriteCond %{REQUEST_URI} ([^/]+)/(feed|rdf|rss|rss2|atom)/?$  [OR]
+RewriteCond %{REQUEST_URI} ^/(feed|rdf|rss|rss2|atom)/?$
+RewriteRule . /index.php?wph-throw-404 [L]
+
+                            <FilesMatch "">
+                                <IfModule mod_headers.c>
+                                    Header unset X-Pingback
+                                </IfModule>
+                            </FilesMatch>
+
+                            <FilesMatch "">
+                                <IfModule mod_headers.c>
+                                    Header unset X-Powered-By
+                                </IfModule>
+                            </FilesMatch>
+</IfModule> 
+
+# END WP Hide & Security Enhancer
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors On
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 300M
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
